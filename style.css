@@ -180,7 +180,7 @@ footer p{
     font-size:1.2rem;
 }
 
-@media (min-width:992px) {
+@media (min-width:768px) {
 h1, h2 { font-size: 4rem; font-weight: 700; color:white;}
 h3 {font-size:2.4rem;}
 p {font-size: 1.8rem; font-weight: 500; color:rgba(255, 255, 255, 0.9);}
@@ -240,7 +240,7 @@ nav li a.active {
 }
 
 .cards{
-    grid-template-columns: repeat(3, 32.4rem);
+    grid-template-columns: repeat(2, 32.4rem);
     gap:30px;
     padding: 3.1rem 2rem 14.5rem;
 }
@@ -266,3 +266,9 @@ footer p{
 }
 }
 
+
+@media (min-width:1200px) {
+    .cards{
+    grid-template-columns: repeat(3, 32.4rem);
+}
+}

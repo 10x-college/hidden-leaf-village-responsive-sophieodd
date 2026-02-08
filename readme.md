@@ -105,3 +105,11 @@ Your submission will be evaluated based on the following:
 **Deadline:** 02.08.2026
 
 Good luck, Architect! Build with precision and pride. 🚀
+
+
+Project Description
+Responsive project based on figma design, mobile-first approach and adapting seamlessly from mobile to desktop. Layout is built with html5 and Css grid/flexbox. 
+
+Challenges
+Main Challenge was to meet pixel-perfect requirement, especially because figma design did not include medium screen layout (between mobile or desktop, 768 is too tight for fitting). for desktop screens each card is 324 pixels wide, so trying to fit 3 cards into 768 pixel screen horizontally and maintain paddings, its just - math not mathing. 
+I added another breakpoint - so that grid columns match perfectly. one column for mobile, two columns for tablet and 3 columns for the desktop layout (each card stays exact size).  
