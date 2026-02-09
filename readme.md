@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/N8dJ6mCd)
 Figma link: https://www.figma.com/design/uEanW0qUCb9xPha544sb5e/Untitled?node-id=0-1&t=JB8eA30CD3aTtnSU-1
 
 1. Project Setup
@@ -104,3 +105,12 @@ Your submission will be evaluated based on the following:
 **Deadline:** 02.08.2026
 
 Good luck, Architect! Build with precision and pride. 🚀
+
+
+Project Description
+Responsive project based on figma design, mobile-first approach and adapting seamlessly from mobile to desktop. Layout is built with html5 and Css grid/flexbox. 
+
+Challenges
+Main Challenge was to meet pixel-perfect requirement, especially because figma design did not include medium screen layout (between mobile or desktop, 768 is too tight for fitting). At 768, the card size 324px width makes it impossible to fit 3 cards horizontally while maintaining paddings. 
+
+I initially added another breakpoint - so that grid columns match perfectly. one column for mobile, two columns for tablet and 3 columns for the desktop layout (each card stays exact size). But that was not in the requirement - so I chose different approach  and used responsive wrapper that preserves fixed card dimensions, while allowing numbers of columns to adapt more naturally.
